@@ -1,0 +1,38 @@
+{
+  "site": {
+    "title": "考试名称 · 备考中心",
+    "subtitle": "描述信息",
+    "modules": [
+      {"id": "review", "icon": "📚", "title": "复习宝典", "desc": "描述", "stats": ["12章", "51节"]},
+      {"id": "practice", "icon": "📝", "title": "真题精练", "desc": "描述", "stats": ["互动答题", "即时解析"]},
+      {"id": "memorize", "icon": "🎯", "title": "考前背诵", "desc": "描述", "stats": ["核心考点"]}
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "第一章 标题",
+      "level": "ch01",
+      "sections": [
+        {
+          "id": "ch01-sec01",
+          "title": "第一节 标题",
+          "content": "概念精讲内容...",
+          "formulas": ["公式1", "公式2"],
+          "examples": [
+            {"q": "计算案例题目", "a": "答案和解析"}
+          ],
+          "tips": ["易错提醒1", "易错提醒2"],
+          "questions": [
+            {
+              "q": "真题题目",
+              "opts": ["选项A", "选项B", "选项C", "选项D"],
+              "ans": 1,
+              "explanation": "解析内容"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
